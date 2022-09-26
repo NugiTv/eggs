@@ -34,7 +34,7 @@
             "name": "Max Players",
             "description": "Maximum Concurrent Players",
             "env_variable": "MAX_PLAYERS",
-            "default_value": "8",
+            "default_value": "20",
             "user_viewable": true,
             "user_editable": false,
             "rules": "required|string|max:20"
@@ -97,7 +97,7 @@
             "name": "Telnet Port",
             "description": "",
             "env_variable": "TELNET_PORT",
-            "default_value": "8081",
+            "default_value": "8082",
             "user_viewable": true,
             "user_editable": true,
             "rules": "required|string|max:20"
